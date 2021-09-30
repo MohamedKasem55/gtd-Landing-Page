@@ -1,0 +1,175 @@
+<!doctype html>
+<html>
+
+<head>
+    <meta charset="utf-8">
+    <style>
+        body {
+            box-sizing: border-box;
+        }
+
+        .new-chat-window {
+            position: relative;
+            width: 200px;
+            display: block;
+            margin: 10px auto;
+            text-align: center;
+            z-index: 2;
+        }
+
+        .new-chat-window .fa {
+            position: absolute;
+            top: 7px;
+            left: 10px;
+            font-weight: bold;
+            font-style: normal;
+        }
+
+        input:focus {
+            outline-color: $blue;
+        }
+
+        .new-chat-window-input {
+            border: 1px solid #ccc;
+            line-height: 30px;
+            padding-left: 30px;
+            width: 100%;
+            z-index: 1;
+        }
+
+        h1 {
+            font-family: Roboto;
+            color: #4F4D53;
+            font-weight: 900;
+            font-size: 100px;
+
+        }
+
+        h2 {
+            font-family: Roboto;
+            color: #E8BE02;
+            font-weight: 900;
+            font-size: 64px;
+
+        }
+
+        h3 {
+            font-family: Roboto;
+            color: #E8BE02;
+            font-weight: 900;
+            font-size: 20px;
+        }
+
+        h4 {
+            font-family: Roboto;
+            color: #FFFFFF;
+            font-weight: 400;
+            font-size: 14px;
+        }
+
+        p {
+            font-family: Roboto;
+            color: #4F4D53;
+            font-weight: 400;
+            font-size: 20px;
+        }
+    </style>
+</head>
+
+<body>
+
+    <div
+        style="display:flex; align-items:center; justify-content: space-around; padding-left: 20% ;padding-right: 20%; height:48px ; background-color: #4F4D53">
+        <div><img src="./media/gtd_logo.png" alt="" srcset=""></div>
+        <div class="new-chat-window">
+            <img class="fa fa-search" src="./media/ic_search.png" alt="" srcset="">
+            <input style=" background-color: black;" type="text" class="new-chat-window-input"
+                id="new-chat-window-input" placeholder="search" />
+        </div>
+    </div>
+    <div
+        style="margin: 0; height : 500px; vertical-align: middle; background-image: url('./media/img_hero.jpg'); background-size:contain; text-align: center;">
+
+        <h1 style="margin: 0;padding-top: 150px;">Hello, we’re gtd.</h1>
+        <div
+            style="display: flex;padding-right: 20%; padding-left: 20%; justify-content: space-between; margin-top: 150px;">
+            <img src="./media/img_lisa.jpg" style="object-fit: cover; width: 150px; height: 150px; border-radius: 50%; "
+                alt="">
+            <img src="./media/img_danielle.jpg"
+                style="object-fit: cover; width: 150px; height: 150px; border-radius: 50%; " alt="">
+            <img src="./media/img_brian.jpg"
+                style="object-fit: cover; width: 150px; height: 150px; border-radius: 50%; " alt="">
+
+        </div>
+    </div>
+    <h2 style="text-align: center; margin-top: 100px;">How it started</h2>
+    <p style="text-align: center; padding-left: 20%;padding-right: 20%; ">Lorem ipsum dolor sit amet, consectetur
+        adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+        quis nostrud exercitation ullamco laboris n
+        isi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum
+        dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in c
+        ulpa qui officia deserunt mollit anim id est laborum.
+    </p>
+
+    <div style="line-height: 10px ; margin-bottom: 60px;margin-top: 60px; display: flex; padding-left: 20%; padding-right: 20%; justify-content: space-around;" > 
+    <div style="display: flex;">
+        <img src="./media/img_lisa.jpg" style="object-fit: cover; width: 150px; height: 150px; border-radius: 50%; "
+                alt="">
+            
+        <div style="margin-left: 30px; padding-top: 20px;">
+            <h3>Lisa</h3>
+            <p> lisa@gtd.co </p>
+        </div>
+    </div>
+    <div style="display: flex;" >
+        <img src="./media/img_danielle.jpg"
+                style="object-fit: cover; width: 150px; height: 150px; border-radius: 50%; " alt="">
+        <div style="margin-left: 30px; padding-top: 20px;" >
+            <h3>Danielle</h3>
+            <p> danielle@gtd.co </p>
+            <p>(123) 456-7890 </p>
+        </div>
+    </div>
+    </div>
+    <footer style="line-height: 10px; display: flex;justify-content: space-between; height:320px ;padding-left: 20%;padding-right: 20% ;background-color: #4F4D53; border-top: 12px #E8BE02 solid;" >
+
+    <div>
+        <h3>Team</h3>
+        <br>
+    <h4>Lisa</h4>
+    <h4>Danielle</h4>
+    <h4>Brian</h4>
+    <h4>Join us!</h4>
+    </div>
+
+    <div>
+        <h3>Learn More</h3>
+        <br>
+
+    <h4>Manifesto</h4>
+    <h4>Works</h4>
+    <h4>Stories</h4>
+    </div>
+
+    <div>
+        <h3>Meet Us</h3>
+        <br>
+
+        <h4>Studio</h4>
+        <h4>Community</h4>
+        <h4>Workshops</h4>
+    </div>
+
+    <div>
+        <h3>Contact</h3>
+        <br>
+
+    <h4>Twitter</h4>
+    <h4>Facebook</h4>
+    <h4>Instagram</h4>
+    </div>
+</footer>
+
+</body>
+
+</html>
